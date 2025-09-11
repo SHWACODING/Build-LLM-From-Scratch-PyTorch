@@ -7,9 +7,9 @@ This Is a Very Powerful Implementation For Building a LLM From Scratch Utilizing
 ## Create a UV Virtual Envronment
 
 ```bash
-uv venv --python=python3.11
+conda create -n LLMs-From-Scratch-env python=3.11 -y
 ```
 
 ```bash
-.venv\Scripts\activate
+conda activate LLMs-From-Scratch-env
 ```
